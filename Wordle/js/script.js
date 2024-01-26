@@ -59,7 +59,6 @@ function clearLastRow() {
 
     for (var i = 0; i < htmlElements.length; i++) {
         var elem = htmlElements[i];
-        console.log("elem: " + elem);
         if (elem.includes(LETTERBANK)) {
             htmlElements[i] = toElement("Remaining letters: \n" + unguessedLetters.join(', '), LETTERBANK);
             stop = true;
@@ -260,7 +259,6 @@ function handleKeyPress(e) {
 
 async function render() {
     document.body.innerHTML = htmlElements.join('\n');
-    console.log(document.body.innerHTML);
 }
 
 startGame()
