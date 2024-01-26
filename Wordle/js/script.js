@@ -28,7 +28,7 @@ function setupGame() {
     unguessedLetters = alphabet.toUpperCase().split('');
 
     answer = pickAnswer();
-    htmlElements.push(toElement("WORDLEZ", "h1"));
+    htmlElements.push(toElement("WORD-L", "h1"));
     htmlElements.push(toElement("Remaining letters: \n" + unguessedLetters.join(', '), LETTERBANK));
     htmlElements.push(toElement("Begin!", 'p'));
 
