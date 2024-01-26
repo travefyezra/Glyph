@@ -1,0 +1,173 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem;
+}
+
+/* wrong */
+h2 {
+    background-color: rgb(84, 84, 84);
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .15rem;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+
+/* almost */
+h3 {
+    background-color: rgb(216, 140, 0);
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .15rem;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+
+/* correct */
+h4 {
+    background-color: green;
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .15rem;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+
+/* blank (for formatting hack) */
+h5 {
+    background-color: black;
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+
+/* empty (for ready to guess) */
+h6 {
+    background-color: black;
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .15rem;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
+
+/* current cursor */
+h7 {
+    background-color: #405474;
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .15rem;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
+
+/* unguessed letters */
+h8 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem;
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+    position: fixed;
+    left: 52rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    white-space: pre-line;
+}
+
+/* answer */
+p {
+    font-size: 2rem;
+    color: #6281b4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem;
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+    position: fixed;
+    left: 52rem;
+    top: 35rem;
+    line-height: 4rem;
+    white-space: pre-line;
+}
+
+input {
+    margin: 3rem;
+    font-size: medium;
+    position: absolute;
+    bottom: 10rem;
+}
+
+br {
+    margin: 3rem;
+}
