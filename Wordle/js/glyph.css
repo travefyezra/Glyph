@@ -1,0 +1,117 @@
+/* const Moods {
+    "Default": ,
+    Wrong,
+    Almost,
+    Correct,
+    Super
+} */
+
+/* var WRONG = "h2";
+var ALMOST = "h3";
+var CORRECT = "h4";
+var SPACER = "h5";
+var EMPTY = "h6";
+var CURSOR = "h7";
+var LETTERBANK = "h8" */
+
+
+.default {
+    background-color: black;
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .15rem;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.wrong {
+    background-color: rgb(84, 84, 84);
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .15rem;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.almost {
+    background-color: rgb(216, 140, 0);
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .15rem;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.correct {
+    background-color: green;
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .15rem;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.super {
+    background-color: gold;
+    font-size: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .15rem;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    display: inline-block;
+}
