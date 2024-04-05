@@ -7,8 +7,8 @@ Glyph is a JS/HTML project to develop a series of letter-tile based word games.
 
 ## How to play
 
-- Just open `index.html` in your browser and go
-- Website coming soon...?
+Open `index.html` in your browser 
+
 
 
 
@@ -22,8 +22,7 @@ Glyph is a JS/HTML project to develop a series of letter-tile based word games.
 ## Next steps
 
 - Make tile a reusable class
-- Build out backend
-- Web hosting
+- Http
 - Animations, improve ux
 - Boggle, more games
 - ...
